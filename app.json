@@ -1,0 +1,58 @@
+{
+  "expo": {
+    "name": "Project-Pinnacle",
+    "slug": "Project-Pinnacle",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "privacy": "public",
+    "plugins": [
+      "expo-image-picker"
+    ],
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#5DB45B"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/63bc39bd-c878-4afe-af31-f56642b89268"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "scheme": "project-pinnacle",
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "This app requires camera access to take photos."
+      },
+      "bundleIdentifier": "com.pinnacle.project",
+      "runtimeVersion": {
+        "policy": "sdkVersion"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png"
+      },
+      "permissions": [
+        "android.permission.CAMERA",
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.RECORD_AUDIO"
+      ],
+      "package": "com.pinnacle.project",
+      "runtimeVersion": "1.0.0"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "63bc39bd-c878-4afe-af31-f56642b89268"
+      }
+    }
+  }
+}
